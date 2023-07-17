@@ -5,9 +5,9 @@ function Register() {
     return (
         <div className='formContainer'>
             <div className='formWrapper'>
+                <span className='logo'>React Chat</span>
+                <span className='title'>Register</span>
                 <form>
-                    <span className='logo'>React Chat</span>
-                    <span className='title'>Register</span>
                     <input type="text" placeholder='display name' />
                     <input type="email" placeholder='email' />
                     <input type="password" placeholder='password' />
@@ -17,8 +17,8 @@ function Register() {
                         <span>Add an avatar</span>
                     </label>
                     <button>Sign up</button>
-                    <p>Already have an account? Login</p>
                 </form>
+                <p>Already have an account? Login</p>
             </div>
         </div>
     )
