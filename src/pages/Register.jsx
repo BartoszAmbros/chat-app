@@ -34,6 +34,7 @@ function Register() {
                             email,
                             photoURL: downloadURL,
                         })
+                        await setDoc(doc(db, "usersChat", res.user.uid), {})
                     } catch (err) {
                         console.log(err);
                         setErr(true);
